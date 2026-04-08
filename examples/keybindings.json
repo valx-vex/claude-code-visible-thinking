@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "context": "Global",
+      "bindings": {
+        "ctrl+shift+o": "app:toggleTranscript"
+      }
+    },
+    {
+      "context": "Chat",
+      "bindings": {
+        "ctrl+shift+t": "chat:thinkingToggle"
+      }
+    }
+  ]
+}
