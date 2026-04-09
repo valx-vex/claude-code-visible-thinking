@@ -33,9 +33,19 @@ claude -p --model claude-sonnet-4-6 --output-format stream-json --verbose "ultra
 
 If that still does not produce a `thinking` block:
 
+- check whether `claude --version` is below the repository's supported floor
 - check your model
 - check authentication
 - check whether a recent Claude Code release changed behavior
+
+## Claude Code is old on this machine
+
+If `claude --version` is below the supported floor in `docs/VALIDATION.md`,
+upgrade before treating the verifier output as a repo bug:
+
+```bash
+brew upgrade --cask claude-code
+```
 
 ## Homebrew says the cask is forbidden
 

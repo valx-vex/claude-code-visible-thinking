@@ -1,0 +1,9 @@
+title: "[showcase] "
+body:
+  - type: textarea
+    id: showcase
+    attributes:
+      label: Show your setup
+      description: Tell us what worked and what visible-thinking path you recovered.
+    validations:
+      required: true

@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a scoped improvement to the setup or validation workflow.
+title: "[idea] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution intent
+      options:
+        - label: I can help test this.
+        - label: I can help implement this if maintainers agree on the shape.

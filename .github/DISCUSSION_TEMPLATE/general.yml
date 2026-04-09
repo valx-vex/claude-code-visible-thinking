@@ -1,0 +1,9 @@
+title: "[beta-feedback] "
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Beta feedback
+      description: What felt strong, confusing, or unexpectedly useful?
+    validations:
+      required: true

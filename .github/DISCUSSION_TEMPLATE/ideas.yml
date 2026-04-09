@@ -1,0 +1,14 @@
+title: "[idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this idea solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+    validations:
+      required: true

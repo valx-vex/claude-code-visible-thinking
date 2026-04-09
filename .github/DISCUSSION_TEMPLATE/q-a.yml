@@ -1,0 +1,14 @@
+title: "[q-and-a] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+    validations:
+      required: true
+  - type: textarea
+    id: state
+    attributes:
+      label: Current state
+      description: Include version, command output, or support-bundle snippets.
+      render: shell

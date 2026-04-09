@@ -1,12 +1,39 @@
 # Claude Code Visible Thinking
 
-Unofficial, source-available setup for restoring visible thinking summaries in recent Claude Code builds without pretending you can force raw full chain-of-thought back into existence.
+[![License: PolyForm NC](https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-2.1.85+-brightgreen.svg)](https://code.claude.com/)
+[![macOS](https://img.shields.io/badge/macOS-13+-silver.svg)](https://www.apple.com/macos/)
+[![Verified](https://img.shields.io/badge/Verified-M3%20%7C%20M4%20%7C%20PRIME-purple.svg)](docs/VALIDATION.md)
+
+> **Unofficial, source-available setup for restoring visible thinking summaries in recent Claude Code builds.**
+
+No folklore. No magic. Just working configs + verification scripts.
+
+Quiet beta docs:
+
+- current release target: `v0.1.0-beta.1`
+- [`docs/releases/v0.1.0-beta.1.md`](docs/releases/v0.1.0-beta.1.md)
+- [`SUPPORT.md`](SUPPORT.md)
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- [`docs/BETA_OPERATIONS.md`](docs/BETA_OPERATIONS.md)
 
 This repository exists because a lot of Claude Code users want the same thing:
 
 - visible thinking in the chat UI
 - transcript-visible reasoning when chat view is compact
 - a reproducible setup instead of forum folklore
+
+## Beta Status
+
+This repository is in a quiet beta.
+
+- the setup is real
+- the validation path is real
+- the contribution and support flow is now being formalized
+
+The promise is narrow on purpose: restore visible thinking summaries and
+transcript-visible reasoning in supported recent Claude Code builds. Not full
+raw chain-of-thought. Not every version forever.
 
 ## What This Repository Gives You
 
@@ -73,17 +100,40 @@ Optional keybindings:
 
 Claude 4 era behavior is summarized thinking, not old Sonnet 3.7-style full reasoning dumps.
 
+## Supported Version Floor
+
+Current documented supported floor: `Claude Code 2.1.85+`.
+
+If you are below that floor, the verifier should fail explicitly and tell you to
+upgrade instead of pretending the config alone is enough.
+
 ## Validated State
 
 As of April 8, 2026:
+As of April 9, 2026:
 
 | Node | Claude Code | Result |
 |---|---:|---|
 | PRIME / Mac Studio | 2.1.85 | Interactive PASS, transcript PASS, print PASS |
 | M4 / VexNet002 | 2.1.85 | Config + version PASS, live interactive validation pending |
-| M3 / VexNet003 | 2.1.87 | Print PASS, user interactive PASS |
+| M3 / VexNet003 | 2.1.89 | Print PASS on latest stable, interactive check still recommended |
 
-Stable moved from `2.1.85` to `2.1.87` during M3 rollout. The repo is written around behavior, not one frozen cask number.
+Stable moved over time during fleet rollout. The repo is written around
+behavior, not one frozen cask number, but it does enforce a documented minimum
+supported floor.
+
+## Optional Memory Add-On
+
+This repo stays focused on visible thinking.
+
+If you also want persistent local memory, treat that as a separate optional layer:
+
+- MemPalace for verbatim local memory
+- Lazarus for semantic resurrection
+- VexNet continuity for capture/sync
+
+See `docs/OPTIONAL_MEMORY_STACK.md` for the boundary so visible-thinking setup
+does not get muddled with memory-stack rollout.
 
 ## Quick Start
 
@@ -110,6 +160,12 @@ Stable moved from `2.1.85` to `2.1.87` during M3 rollout. The repo is written ar
 ./scripts/verify-thinking.sh
 ```
 
+### Collect Support Bundle
+
+```bash
+./scripts/collect_support_bundle.sh
+```
+
 ### Manual Interactive Check
 
 ```bash
@@ -133,11 +189,27 @@ Then check:
 - `README.md`: human-first quickstart
 - `AGENTS.md`: LLM/operator guidance and claim boundaries
 - `DISCLAIMER.md`: scope and safety boundaries
+- `SUPPORT.md`: support and bug-report flow
+- `CONTRIBUTING.md`: contribution policy
 - `docs/ARCHITECTURE.md`: why the setup works
 - `docs/VALIDATION.md`: evidence and version matrix
 - `docs/TROUBLESHOOTING.md`: common failure modes
 - `examples/`: copyable JSON snippets
 - `scripts/`: backup, apply, and verify helpers
+
+## Community And Support
+
+Use the support system intentionally:
+
+- GitHub Issues for setup failures, script bugs, and regressions
+- GitHub Discussions for beta feedback, Q&A, and roadmap discussion
+- Discord for quick beta conversation, with anything important written back to GitHub
+
+Run the support bundle before opening a bug:
+
+```bash
+./scripts/collect_support_bundle.sh
+```
 
 ## License
 

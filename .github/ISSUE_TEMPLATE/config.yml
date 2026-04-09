@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Beta feedback and Q&A
+    url: https://github.com/valx-vex/claude-code-visible-thinking/discussions
+    about: Use Discussions for feedback, questions, and roadmap conversation.
+  - name: Support guide
+    url: https://github.com/valx-vex/claude-code-visible-thinking/blob/main/SUPPORT.md
+    about: Read the support flow and attach a support bundle before filing a bug.

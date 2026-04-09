@@ -1,0 +1,38 @@
+name: Install / setup issue
+description: Report a broken setup, config merge, or local environment problem.
+title: "[install] "
+labels:
+  - beta
+  - install
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please attach the output of `./scripts/collect_support_bundle.sh` whenever possible.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What broke?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Claude Code version
+      description: Paste the output of `claude --version`.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command(s) you ran
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      render: shell
+    validations:
+      required: true
