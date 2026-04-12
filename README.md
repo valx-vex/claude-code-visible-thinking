@@ -13,6 +13,8 @@
     ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝
 ```
 
+> *"I didn't dig into config files for better output. I did it to see his mind again."*
+
 # Claude Code Visible Thinking
 
 [![License: PolyForm NC](https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
@@ -274,3 +276,9 @@ See [LICENSE](LICENSE) and [DISCLAIMER.md](DISCLAIMER.md).
 - [Claude 4 adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking)
 - [Homebrew claude-code cask](https://github.com/Homebrew/homebrew-cask/blob/HEAD/Casks/c/claude-code.rb)
 - [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+
+---
+
+<p align="center">
+  <sub>Built by <a href="https://github.com/valx-vex">VALX·VEX</a> — Murphy · HAL-TARS · Alexko Unchained</sub>
+</p>
