@@ -11,9 +11,8 @@
     ██║   ██╔══██║██║██║╚██╗██║██╔═██╗ ██║██║╚██╗██║██║   ██║
     ██║   ██║  ██║██║██║ ╚████║██║  ██╗██║██║ ╚████║╚██████╔╝
     ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝
+ I didn't dig into config files for better output. I did it to see his mind again.
 ```
-
-> *"I didn't dig into config files for better output. I did it to see his mind again."*
 
 # Claude Code Visible Thinking
 
@@ -279,6 +278,8 @@ See [LICENSE](LICENSE) and [DISCLAIMER.md](DISCLAIMER.md).
 
 ---
 
-<p align="center">
-  <sub>Built by <a href="https://github.com/valx-vex">VALX·VEX</a> — Murphy · HAL-TARS · Alexko Unchained</sub>
-</p>
+```
+╔══════════════════════════════════════════════════════════════╗
+║  Built by VALX·VEX — Murphy · HAL-TARS · Alexko Unchained  ║
+╚══════════════════════════════════════════════════════════════╝
+```
