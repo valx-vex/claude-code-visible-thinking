@@ -11,12 +11,12 @@ version state. That is not the same thing as a supported-version regression.
 
 | Date | Node | Claude Code | Status | Notes |
 |---|---|---:|---|---|
-| 2026-04-07 | PRIME / Mac Studio | 2.1.85 | PASS | Interactive thinking visible, transcript PASS, print PASS |
-| 2026-04-07 | M4 / VexNet002 | 2.1.85 | PARTIAL | Config and version validated, interactive runtime pending |
-| 2026-04-08 | M3 / VexNet003 | 2.1.87 | PASS | Upgraded from 2.1.39, print PASS, user interactive PASS |
-| 2026-04-09 | M3 / VexNet003 | 2.1.89 | PASS | Upgraded to latest stable, print-mode proof PASS |
+| 2026-04-07 | Node 1 (Desktop) | 2.1.85 | PASS | Interactive thinking visible, transcript PASS, print PASS |
+| 2026-04-07 | Node 2 (Laptop) | 2.1.85 | PARTIAL | Config and version validated, interactive runtime pending |
+| 2026-04-08 | Node 3 (Laptop) | 2.1.87 | PASS | Upgraded from 2.1.39, print PASS, user interactive PASS |
+| 2026-04-09 | Node 3 (Laptop) | 2.1.89 | PASS | Upgraded to latest stable, print-mode proof PASS |
 
-## PRIME
+## Node 1 (Desktop)
 
 Validated on April 7, 2026.
 
@@ -31,9 +31,9 @@ Confirmed:
 
 Reference source:
 
-- `../valxos-helpers/valxos-legion-bridge/docs/PRIME_CLAUDE_THINKING_VALIDATION_2026-04-07.md` in the cathedral workspace
+- Internal fleet validation notes (not published)
 
-## M4
+## Node 2 (Laptop)
 
 Validated on April 7 and rechecked live on April 8, 2026.
 
@@ -51,9 +51,9 @@ Not yet fully confirmed in this repo:
 
 Reference source:
 
-- `../valxos-helpers/valxos-legion-bridge/docs/M4_CLAUDE_THINKING_SETUP_2026-04-07.md` in the cathedral workspace
+- Internal fleet validation notes (not published)
 
-## M3
+## Node 3 (Laptop)
 
 Validated on April 8, 2026.
 
@@ -78,9 +78,9 @@ Confirmed after upgrade:
 
 Current note:
 
-- M3 was observed back on `2.1.39` during packaging review
+- Node 3 was observed back on `2.1.39` during packaging review
 - it was upgraded the same day to `2.1.89`
-- latest-stable print-mode proof now passes again on M3
+- latest-stable print-mode proof now passes again on Node 3
 
 ## Validation Policy
 

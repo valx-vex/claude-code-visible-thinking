@@ -33,9 +33,9 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 | Node | Claude Code | Status |
 |------|-------------|--------|
-| PRIME / Mac Studio | 2.1.85 | ✅ PASS (interactive, transcript, print) |
-| M4 / VexNet002 | 2.1.85 | ✅ PASS (config + version) |
-| M3 / VexNet003 | 2.1.89 | ✅ PASS (print on latest stable) |
+| Node 1 (Desktop) | 2.1.85 | ✅ PASS (interactive, transcript, print) |
+| Node 2 (Laptop) | 2.1.85 | ✅ PASS (config + version) |
+| Node 3 (Laptop) | 2.1.89 | ✅ PASS (print on latest stable) |
 
 ### Known Limitations
 
